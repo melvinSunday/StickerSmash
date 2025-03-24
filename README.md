@@ -1,8 +1,16 @@
-# Welcome to your Expo app 👋
+# StickerSmash 🎨
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+StickerSmash is a fun React Native app built with Expo that lets you create custom stickers by adding emojis to your photos. This project follows the [official Expo tutorial](https://docs.expo.dev/tutorial/introduction/).
 
-## Get started
+## Features
+
+- 📸 Take photos with your camera
+- 🖼️ Pick images from your gallery 
+- 😄 Add emoji stickers to your images
+- 💾 Save your creations to your device
+- 🌐 Works on iOS, Android and Web
+
+## Getting Started
 
 1. Install dependencies
 
@@ -13,38 +21,41 @@ This is an [Expo](https://expo.dev) project created with [`create-expo-app`](htt
 2. Start the app
 
    ```bash
-    npx expo start
+   npx expo start
    ```
 
-In the output, you'll find options to open the app in a
+You can then open the app in:
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+- iOS Simulator
+- Android Emulator  
+- Expo Go app on your physical device
+- Web browser
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+## How to Use
 
-## Get a fresh project
+1. Launch the app
+2. Select an image from your gallery or take a new photo
+3. Add emoji stickers by tapping the sticker button
+4. Position the stickers by dragging them
+5. Save your creation to your device
 
-When you're ready, run:
+## Try it Out
 
-```bash
-npm run reset-project
-```
+You can try the apk version of StickerSmash here:
+[StickerSmash APK](https://expo.dev/accounts/m.sundae/projects/StickerSmash/builds/b192be61-2efd-4f94-b85a-feb1fa1de7c0)
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+## Technologies Used
 
-## Learn more
+- React Native
+- Expo
+- expo-image-picker
+- expo-media-library
+- react-native-gesture-handler
+- react-native-reanimated
+- react-native-view-shot
 
-To learn more about developing your project with Expo, look at the following resources:
+## Learn More
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+- [Expo Documentation](https://docs.expo.dev/)
+- [React Native Documentation](https://reactnative.dev/)
+- [StickerSmash Tutorial](https://docs.expo.dev/tutorial/introduction/)
